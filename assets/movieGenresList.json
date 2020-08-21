@@ -1,0 +1,52 @@
+[
+    {
+        "id": "101",
+        "genre": "Fantezi",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/01/16145448/Forbidden-Planet.jpg"
+    },
+    {
+        "id": "102",
+        "genre": "Dram",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/01/16145450/Gone-with-the-Wind.jpg"
+    },
+    {
+        "id": "103",
+        "genre": "Aksiyon",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/06/09100915/John-Wick-Action-Genre-1.jpg"
+    },
+    {
+        "id": "104",
+        "genre": "Komedi",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/06/09103547/three-stooges-1.jpeg"
+    },
+    {
+        "id": "105",
+        "genre": "Korku",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/06/09105436/Halloween-Slasher-2-1.jpg"
+    },
+    {
+        "id": "106",
+        "genre": "Bilim Kurgu",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/06/09111334/sci-fi-genre-1.jpg"
+    },
+    {
+        "id": "107",
+        "genre": "Vahşi Batı",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/03/13171200/John-Wayne-2.jpg"
+    },
+    {
+        "id": "108",
+        "genre": "Romantik",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/06/09114330/Titanic-Romance-Films-1.jpg"
+    },
+    {
+        "id": "109",
+        "genre": "Gerilim",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/03/20153301/James-Bond-Spy-Thriller-1.jpg"
+    },
+    {
+        "id": "110",
+        "genre": "Suç",
+        "image": "https://s3.amazonaws.com/pbblogassets/uploads/2020/01/16145452/Pulp-Fiction.jpg"
+    }
+]
