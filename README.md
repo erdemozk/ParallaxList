@@ -1,4 +1,5 @@
 <p align="center">
+  <a align="center" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">React Native</a>
   <h1 align="center">ParallaxList</h1>
 </p>
 
@@ -50,7 +51,7 @@ React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç d
 
 ## `ParallaxList` Component
 
-Uygulamanın ana komponentidir.
+It is the main component of the application.
 
 ```js
 import ParallaxList from './src/views/ParallaxList';
@@ -58,19 +59,19 @@ import ParallaxList from './src/views/ParallaxList';
 
 ### Properties
 
-JSON gereksinimlerini karşılayan herhangi bir JSON dosyası ile aşağıdaki şekilde kullanılabilir:
+It can be used with any JSON file that meets the JSON requirements follows:
 
 | Prop        | Description                                       | Default     | Type     | Required   |
 | ----------- | ------------------------------------------------- | ----------- | -------- | ---------- |
-| **`data`**  | Kartlardaki yazı ve resmi sağlacak olan veri      | _None_      | JSON     | YES        |
+| **`data`**  | Data to will provide text and picture on cards    | _None_      | JSON     | YES        |
 
 #### JSON Requirements
 
-| Key          | Description                                      | Value Type      | Required     |
-| ------------ | ------------------------------------------------ | --------------- | ------------ |
-| **`id`**     | Kartın View'inde eşsiz id                        | String          | YES          |
-| **`genre`**  | Kartın Text'inde bulunan yazı                    | String          | YES          |
-| **`image`**  | Kartın ImageBackground'unda bulunan resim        | URL or PATH     | YES          |
+| Key          | Description                                             | Value Type      | Required     |
+| ------------ | ------------------------------------------------------- | --------------- | ------------ |
+| **`id`**     | Unique ID in the View Component of the card             | String          | YES          |
+| **`genre`**  | Text in the Text Component of the card                  | String          | YES          |
+| **`image`**  | Image in the ImageBackground Component of the card      | URL or PATH     | YES          |
 
 ## References
 
