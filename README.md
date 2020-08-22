@@ -8,7 +8,7 @@
 ## In-App
 
 ![](readme-assets/in-app.gif) 
-![](readme-assets/in-app-screenshot.png = 370 × 803)
+![](readme-assets/in-app-screenshot.png {width=370px height=803px})
 
 ## Table of Contents
 
