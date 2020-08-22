@@ -6,21 +6,33 @@
 
 ## Table of Contents
 
-- [Clone](#clone)
+- [Description](#description)
+- [Clone and Running](#clone and running)
 - [Requirements](#requirements)
-- [Components Used](#components)
-- [FAQ](#faq)
+- [Components Used](#components used)
+- [References](#references)
 - [License](#license)
 
 ---
 
-## Clone
-
-- You can clone this repo to your local machine using `https://github.com/erdemozk/ParallaxList.git`
+<p align="center">
+<h5>Description: </h5>
+Kodluyoruz aracılığıyla sağlanan iş başvurusunun ödev projesidir.
+</p>
 
 ---
 
-## Gereklilikler
+## Clone and Running
+```shell
+git clone git@github.com:erdemozk/ParallaxList.git
+cd ParallaxList
+npm install
+react-native run-android or react-native run-ios
+```
+
+---
+
+## Requirements
 
 React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç duyulmamaktadır.
 
@@ -41,20 +53,20 @@ React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç d
 Uygulamanın ana komponentidir.
 
 ```js
-import ParallaxList from 'react-native-vector-icons/FontAwesome';
+import ParallaxList from ''./src/views/ParallaxList';
 ```
 
 ### Properties
 
-JSON içeriği gereksinimleri karşılayan herhangi bir JSON dosyası ile aşağıdaki şekilde kullanılabilir:
+JSON gereksinimlerini karşılayan herhangi bir JSON dosyası ile aşağıdaki şekilde kullanılabilir:
 
-| Prop        | Description                                               | Default     | Type     | Required   |
-| ----------- | --------------------------------------------------------- | ----------- | -------- | ---------- |
-| **`data`**  | Kartlardaki yazı ve resmi sağlacak olan veri              | _None_      | JSON     | YES        |
+| Prop        | Description                                       | Default     | Type     | Required   |
+| ----------- | ------------------------------------------------- | ----------- | -------- | ---------- |
+| **`data`**  | Kartlardaki yazı ve resmi sağlacak olan veri      | _None_      | JSON     | YES        |
 
 #### JSON Requirements
 
-| Prop         | Description                                      | Type             | Required     |
+| Key          | Description                                      | Value Type       | Required     |
 | ------------ | ------------------------------------------------ | ---------------- | ------------ |
 | **`id`**     | Kartın View'inde eşsiz id                        | Text(Numeric)    | YES          |
 | **`genre`**  | Kartın Text'inde bulunan yazı                    | Text             | YES          |
@@ -63,7 +75,13 @@ JSON içeriği gereksinimleri karşılayan herhangi bir JSON dosyası ile aşağ
 
 
 
+### References
 
+- [React Native Docs](https://facebook.github.io/react-native/docs/getting-started.html)
+- [Firebase](https://firebase.google.com/?hl=pt-br)
+- [WhatsApp Messenger](https://play.google.com/store/apps/details?id=com.whatsapp&hl=pt_BR)
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Community - Android Developers](https://developer.android.com/support)
 
 ---
 
