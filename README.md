@@ -85,6 +85,14 @@ It can be used with any JSON file that meets the JSON requirements follows:
 | **`genre`**  | Text in the Text Component of the card                  | String          | YES          |
 | **`image`**  | Image in the ImageBackground Component of the card      | URL or PATH     | YES          |
 
+## Author
+
+👤 **Erdem Özkök**
+
+- LinkedIn: [@erdemozk](https://www.linkedin.com/in/erdemozk/)
+- Github: [@erdemozk](https://github.com/erdemozk)
+- Mail: [@erdemozkok](mailto:erdemozkok@hotmail.com.tr)
+
 ## References
 
 - [React Native Docs](https://facebook.github.io/react-native/docs/getting-started.html)
