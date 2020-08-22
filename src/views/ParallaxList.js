@@ -10,6 +10,8 @@ import {
 const H = 440
 //x.nativeEvent.contentOffset.y
 
+{/**/}
+
 const ParallaxList = (props) => {
     const scrollY = useRef(new Animated.Value(0)).current;
 
@@ -86,8 +88,8 @@ const S = {
         alignItems: 'center',
         transform: [{
             translateY: scrollY.interpolate({
-                inputRange: [0, H],
-                outputRange: [0, H * 0.75]
+                inputRange: [0, 3652, 3755],
+                outputRange: [0, 365, 375]
             })
         }]
     })
