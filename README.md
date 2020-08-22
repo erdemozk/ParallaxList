@@ -15,14 +15,14 @@
 
 ---
 
-<p align="center">
-<h2>Description: </h2>
+## Description
+
 Kodluyoruz aracılığıyla sağlanan iş başvurusunun ödev projesidir.
-</p>
 
 ---
 
 ## Running
+
 ```shell
 git clone git@github.com:erdemozk/ParallaxList.git
 cd ParallaxList
@@ -38,7 +38,7 @@ React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç d
 
 ---
 
-## Kullanılan Komponentler
+## Components Used
 
 - [x] [React]
 - [x] [SafeAreaView]
@@ -53,7 +53,7 @@ React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç d
 Uygulamanın ana komponentidir.
 
 ```js
-import ParallaxList from ''./src/views/ParallaxList';
+import ParallaxList from './src/views/ParallaxList';
 ```
 
 ### Properties
@@ -75,13 +75,12 @@ JSON gereksinimlerini karşılayan herhangi bir JSON dosyası ile aşağıdaki �
 
 
 
-### References
+## References
 
 - [React Native Docs](https://facebook.github.io/react-native/docs/getting-started.html)
-- [Firebase](https://firebase.google.com/?hl=pt-br)
-- [WhatsApp Messenger](https://play.google.com/store/apps/details?id=com.whatsapp&hl=pt_BR)
-- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
-- [Community - Android Developers](https://developer.android.com/support)
+- [React Native Animated API](https://reactnative.dev/docs/animated)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Youtube](https://www.youtube.com/)
 
 ---
 
