@@ -8,17 +8,17 @@ import {
 
 import { styles as S } from '../styles/Item';
 
-const Item = (item) => {
+const Item = (props) => {
     return (
         <View
             style={S.main}>
             <Text
                 style={S.text}>
-                {item.genre}
+                {props.genre}
             </Text>
             <View style={S.darkView}/>
             <ImageBackground
-                source={{uri: item.image}}
+                source={{uri: props.image}}
                 style={S.image}/>
         </View>
     );

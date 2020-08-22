@@ -12,8 +12,8 @@ import Item from './Item';
 const ParallaxList = (props) => {
     const scrollA = useRef(new Animated.Value(0)).current;
     return (
-        <View>
-            <FlatList
+        <ScrollView>
+            {/*<FlatList
                 data={props.data}
                 extraData={props.data}
                 renderItem={({ item }) => (Item(item))}
@@ -23,8 +23,9 @@ const ParallaxList = (props) => {
                         {useNativeDriver: true}
                     )
                 }}/>}>
-            </FlatList>
-        </View>
+            </FlatList>*/}
+            {props.data.map((item) => (Item(item)))}
+        </ScrollView>
     );
 };
 
