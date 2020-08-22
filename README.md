@@ -24,13 +24,9 @@
 - [References](#references)
 - [License](#license)
 
----
-
 ## Prerequisites
 
 React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç duyulmamaktadır.
-
----
 
 ## Clone and Running
 
@@ -40,8 +36,6 @@ cd ParallaxList
 npm install
 react-native run-android or react-native run-ios
 ```
-
----
 
 ## Components Used
 
