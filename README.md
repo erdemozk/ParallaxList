@@ -2,6 +2,7 @@
   <img src="https://miro.medium.com/max/256/1*gGh9I9ju9w4lXhmWoG2fXA.png">
   <h1 align="center">ParallaxList</h1>
   <h2 align="center">Made with React Native</h2>
+  <a>Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.</a>
 </p>
 
 ![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
@@ -17,18 +18,11 @@
 
 ## Table of Contents
 
-- [Description](#description)
 - [Prerequisites](#prerequisites)
 - [Clone and Running](#clone-and-running)
 - [Components Used](#components-used)
 - [References](#references)
 - [License](#license)
-
----
-
-## Description
-
-Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.
 
 ---
 
