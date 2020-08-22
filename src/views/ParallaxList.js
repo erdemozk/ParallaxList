@@ -13,7 +13,8 @@ const ParallaxList = (props) => {
     const Item = (props) => {
         return (
             <View
-                style={S.main}>
+                style={S.main}
+                key={props.id}>
                 <Animated.Text
                     style={S.text(scrollY)}>
                     {props.genre}
@@ -34,7 +35,8 @@ const ParallaxList = (props) => {
         )}
         scrollEventThrottle={16}
         >
-            {props.data.map((item) => (Item(item)))}
+            {props.data.map((item) => (Item(item))
+            )}
         </Animated.ScrollView>
     );
 };
