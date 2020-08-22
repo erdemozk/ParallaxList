@@ -31,11 +31,13 @@ export const styles = StyleSheet.create({
     },
 
     text: {
+        height: 440,
         fontSize: 50,
         color: 'white',
         fontWeight: 'bold',
         zIndex: 100,
         position: 'absolute',
-        marginVertical: 10
+        marginVertical: 10,
+        alignItems: 'center',
     }
 });

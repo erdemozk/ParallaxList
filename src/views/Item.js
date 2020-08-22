@@ -2,7 +2,8 @@ import React from 'react';
 import {
   View,
   Text,
-  ImageBackground
+  ImageBackground,
+  ScrollView
 } from 'react-native';
 
 import { styles as S } from '../styles/Item';
