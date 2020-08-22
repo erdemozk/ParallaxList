@@ -8,8 +8,8 @@
 ## In-App
 
 <p>
-<img align="left" src="readme-assets/in-app.gif">
-<img align="right" width="370" height="803" src="readme-assets/in-app-screenshot.png">
+<img src="readme-assets/in-app.gif">
+<img width="370" height="803" src="readme-assets/in-app-screenshot.png">
 </p>
 
 ---
