@@ -7,7 +7,7 @@
 
 ## In-App
 
-![](in-app.gif)
+![](readme-assets/in-app.gif) [](readme-assets/in-app-screenshot.png)
 
 ## Table of Contents
 
