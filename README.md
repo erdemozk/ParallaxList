@@ -1,9 +1,13 @@
-![React Native](https://miro.medium.com/max/256/1*gGh9I9ju9w4lXhmWoG2fXA.png)
 <p align="center">
+  <img src="https://miro.medium.com/max/256/1*gGh9I9ju9w4lXhmWoG2fXA.png">
   <h1 align="center">ParallaxList</h1>
 </p>
 
 ![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
+
+## In-App
+
+![](in-app.gif)
 
 ## Table of Contents
 
