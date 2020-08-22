@@ -1,5 +1,4 @@
-![React Native](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
-
+![React Native](https://miro.medium.com/max/256/1*gGh9I9ju9w4lXhmWoG2fXA.png)
 <p align="center">
   <h1 align="center">ParallaxList</h1>
 </p>
@@ -9,8 +8,8 @@
 ## Table of Contents
 
 - [Description](#description)
+- [Prerequisites](#prerequisites)
 - [Clone and Running](#clone-and-running)
-- [Requirements](#requirements)
 - [Components Used](#components-used)
 - [References](#references)
 - [License](#license)
@@ -20,6 +19,12 @@
 ## Description
 
 Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.
+
+---
+
+## Prerequisites
+
+React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç duyulmamaktadır.
 
 ---
 
@@ -34,12 +39,6 @@ react-native run-android or react-native run-ios
 
 ---
 
-## Requirements
-
-React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç duyulmamaktadır.
-
----
-
 ## Components Used
 
 - [x] [React]
@@ -49,6 +48,8 @@ React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç d
 - [x] [Animated.Text]
 - [x] [Animated.ScrollView]
 - [x] [ImageBackground]
+
+---
 
 ## `ParallaxList` Component
 
