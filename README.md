@@ -12,6 +12,8 @@
 <img align="right" width="370" height="803" src="readme-assets/in-app-screenshot.png">
 </p>
 
+---
+
 ## Table of Contents
 
 - [Description](#description)
