@@ -7,22 +7,22 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Clone and Running](#clone and running)
+- [Running](#running)
 - [Requirements](#requirements)
-- [Components Used](#components used)
+- [Components Used](#components-used)
 - [References](#references)
 - [License](#license)
 
 ---
 
 <p align="center">
-<h5>Description: </h5>
+<h2>Description: </h2>
 Kodluyoruz aracılığıyla sağlanan iş başvurusunun ödev projesidir.
 </p>
 
 ---
 
-## Clone and Running
+## Running
 ```shell
 git clone git@github.com:erdemozk/ParallaxList.git
 cd ParallaxList
