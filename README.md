@@ -8,7 +8,7 @@
 ## In-App
 
 <p>
-<img src="readme-assets/in-app.gif">
+<img src="https://media.giphy.com/media/f6DP436M16eFYg2l35/giphy.gif">
 <img width="370" height="803" src="readme-assets/in-app-screenshot.png">
 </p>
 
