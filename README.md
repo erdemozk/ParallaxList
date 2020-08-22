@@ -1,5 +1,6 @@
+![React Native](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+
 <p align="center">
-  <a align="center" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">React Native</a>
   <h1 align="center">ParallaxList</h1>
 </p>
 
