@@ -8,7 +8,7 @@
 ## In-App
 
 <p>
-<iframe src="https://giphy.com/embed/f6DP436M16eFYg2l35" width="222" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/f6DP436M16eFYg2l35">via GIPHY</a></p>
+<img width="370" height="803" src="readme-assets/in-app.gif">
 <img width="370" height="803" src="readme-assets/in-app-screenshot.png">
 </p>
 
