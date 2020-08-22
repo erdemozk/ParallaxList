@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Running](#running)
+- [Clone and Running](#clone-and-running)
 - [Requirements](#requirements)
 - [Components Used](#components-used)
 - [References](#references)
@@ -17,11 +17,11 @@
 
 ## Description
 
-Kodluyoruz aracılığıyla sağlanan iş başvurusunun ödev projesidir.
+Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.
 
 ---
 
-## Running
+## Clone and Running
 
 ```shell
 git clone git@github.com:erdemozk/ParallaxList.git
@@ -66,14 +66,11 @@ JSON gereksinimlerini karşılayan herhangi bir JSON dosyası ile aşağıdaki �
 
 #### JSON Requirements
 
-| Key          | Description                                      | Value Type       | Required     |
-| ------------ | ------------------------------------------------ | ---------------- | ------------ |
-| **`id`**     | Kartın View'inde eşsiz id                        | Text(Numeric)    | YES          |
-| **`genre`**  | Kartın Text'inde bulunan yazı                    | Text             | YES          |
-| **`image`**  | Kartın ImageBackground'unda bulunan resim        | URL or PATH      | YES          |
-
-
-
+| Key          | Description                                      | Value Type      | Required     |
+| ------------ | ------------------------------------------------ | --------------- | ------------ |
+| **`id`**     | Kartın View'inde eşsiz id                        | String          | YES          |
+| **`genre`**  | Kartın Text'inde bulunan yazı                    | String          | YES          |
+| **`image`**  | Kartın ImageBackground'unda bulunan resim        | URL or PATH     | YES          |
 
 ## References
 
