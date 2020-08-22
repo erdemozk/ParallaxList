@@ -1,16 +1,11 @@
 import React, { useRef } from 'react';
 import {
   View,
-  ScrollView,
   Animated,
-  Text,
   ImageBackground
 } from 'react-native';
 
-const H = 440
-//x.nativeEvent.contentOffset.y
-
-{/**/}
+const H = 450
 
 const ParallaxList = (props) => {
     const scrollY = useRef(new Animated.Value(0)).current;
@@ -39,17 +34,6 @@ const ParallaxList = (props) => {
         )}
         scrollEventThrottle={16}
         >
-            {/*<FlatList
-                data={props.data}
-                extraData={props.data}
-                renderItem={({ item }) => (Item(item))}
-                renderScrollComponent={(props) => <ScrollView {...props} onScroll={(x) => {
-                    Animated.event(
-                        [{nativeEvent: {contentOffset: {y: scrollA}}}],
-                        {useNativeDriver: true}
-                    )
-                }}/>}>
-            </FlatList>*/}
             {props.data.map((item) => (Item(item)))}
         </Animated.ScrollView>
     );
@@ -58,14 +42,14 @@ const ParallaxList = (props) => {
 const S = {
     main: { 
         width: '100%',
-        height: 440,
+        height: H,
         marginBottom: 7,
         alignItems: 'center',
     },
 
     darkView: {
         width: '100%',
-        height: 440,
+        height: H,
         zIndex: 1,
         position: 'absolute',
         backgroundColor: 'black',
@@ -78,7 +62,7 @@ const S = {
     },
 
     text: scrollY => ({
-        height: 440,
+        height: H,
         fontSize: 50,
         color: 'white',
         fontWeight: 'bold',
