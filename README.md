@@ -7,8 +7,8 @@
 
 ## In-App
 
-![](readme-assets/in-app.gif) 
-![](readme-assets/in-app-screenshot.png {width=370px height=803px})
+<img align="left" src="readme-assets/in-app.gif">
+<img align="right" width="370" height="803" src="readme-assets/in-app-screenshot.png">
 
 ## Table of Contents
 
