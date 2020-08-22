@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="https://miro.medium.com/max/256/1*gGh9I9ju9w4lXhmWoG2fXA.png">
+  <img src="readme-assets/react-native.png">
   <h1 align="center">ParallaxList</h1>
   <h2 align="center">Made with React Native</h2>
+  ![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
   <a>Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.</a>
 </p>
-
-![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
 
 ## In-App
 
