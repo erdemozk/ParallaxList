@@ -74,7 +74,8 @@ const S = {
         transform: [{
             translateY: scrollY.interpolate({
                 inputRange: [0, 3652, 3755],
-                outputRange: [0, 365, 375]
+                outputRange: [0, 365, 375],
+                extrapolate: 'clamp'
             })
         }]
     })
