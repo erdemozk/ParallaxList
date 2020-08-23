@@ -21,6 +21,7 @@ It is made entirely using React Native and React Native Animated API. No third p
 - [Prerequisites](#prerequisites)
 - [Clone and Running](#clone-and-running)
 - [Components Used](#components-used)
+- [ParallaxList Component](#parallaxList-component)
 - [Author](#author)
 - [References](#references)
 - [License](#license)
@@ -41,12 +42,15 @@ react-native run-android or react-native run-ios
 ## Components Used
 
 - [x] [React]
-- [x] [SafeAreaView]
+- [x] [ReactNative]
+    - [x] [SafeAreaView]
+    - [x] [View]
+    - [x] [Animated]
+        - [x] [Text]
+        - [x] [ScrollView]
+    - [x] [ImageBackground]
 - [x] [ParallaxList]
-- [x] [View]
-- [x] [Animated.Text]
-- [x] [Animated.ScrollView]
-- [x] [ImageBackground]
+
 
 ---
 
