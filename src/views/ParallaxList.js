@@ -78,7 +78,7 @@ const S = {
         transform: [{
             translateY: scrollY.interpolate({
                 inputRange: [0, screenHeight + 100],
-                outputRange: [0, (screenHeight/10) + 5],
+                outputRange: [0, (screenHeight / 10) + 5],
                 extrapolate: 'clamp'
             })
         }]
