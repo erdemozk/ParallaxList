@@ -5,7 +5,7 @@
 
 ![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed) **Made with React Native**  
 
-Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.
+It is made entirely using React Native and React Native Animated API. No third party packages have been used.
 
 ## In-App
 
@@ -27,7 +27,7 @@ Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Nat
 
 ## Prerequisites
 
-React-Native 0.63 sürümü proje için yeterlidir. Ekstra bir pakete ihtiyaç duyulmamaktadır.
+React Native 0.63 version is sufficient for the project. There is no need for an extra package.
 
 ## Clone and Running
 
