@@ -1,12 +1,11 @@
-![](readme-assets/react-native.png)
-# ParallaxList
+<p align='center'>
+<img src="readme-assets/react-native.png">
+</p>
+<h1 align='center'>ParallaxList</h1>
 
-Made with React Native
-  
-![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
+**Made with React Native**  ![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
 
 Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.
-
 
 ## In-App
 
@@ -22,6 +21,7 @@ Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Nat
 - [Prerequisites](#prerequisites)
 - [Clone and Running](#clone-and-running)
 - [Components Used](#components-used)
+- [Author](#author)
 - [References](#references)
 - [License](#license)
 
