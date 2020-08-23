@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import {
   View,
   Animated,
@@ -9,6 +9,7 @@ const H = 450
 
 const ParallaxList = (props) => {
     const scrollY = useRef(new Animated.Value(0)).current;
+    const [screenHeight, setScreenHeight] = useState([]);
 
     const Item = (props) => {
         return (
@@ -16,7 +17,7 @@ const ParallaxList = (props) => {
                 style={S.main}
                 key={props.id}>
                 <Animated.Text
-                    style={S.text(scrollY)}>
+                    style={S.text(scrollY, screenHeight)}>
                     {props.genre}
                 </Animated.Text>
                 <View style={S.darkView}/>
@@ -34,6 +35,9 @@ const ParallaxList = (props) => {
                 {useNativeDriver: true}
             )}
             scrollEventThrottle={16}
+            onContentSizeChange={(width, height) => { 
+                setScreenHeight(height) 
+            }}
         >
             {props.data.map((item) => (Item(item)))}
         </Animated.ScrollView>
@@ -62,7 +66,7 @@ const S = {
         height: '100%'
     },
 
-    text: scrollY => ({
+    text: (scrollY, screenHeight) => ({
         height: H,
         fontSize: 50,
         color: 'white',
@@ -73,8 +77,8 @@ const S = {
         alignItems: 'center',
         transform: [{
             translateY: scrollY.interpolate({
-                inputRange: [0, 3652, 3755],
-                outputRange: [0, 365, 375],
+                inputRange: [0, screenHeight + 100],
+                outputRange: [0, (screenHeight/10) + 5],
                 extrapolate: 'clamp'
             })
         }]
