@@ -78,6 +78,8 @@ It can be used with any JSON file that meets the JSON requirements follows:
 | **`genre`**  | Text in the Text Component of the card                  | String          | YES          |
 | **`image`**  | Image in the ImageBackground Component of the card      | URL or PATH     | YES          |
 
+---
+
 ## Author
 
 👤 **Erdem Özkök**
