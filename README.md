@@ -3,7 +3,7 @@
 </p>
 <h1 align='center'>ParallaxList</h1>
 
-**Made with React Native**  ![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)
+![Build Status](https://travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed) **Made with React Native**  
 
 Kodluyoruz iş başvurusunun ödev projesidir. Tamamen React Native ve React Native Animated API kullanılarak yapılmıştır. Herhangi bir üçüncü parti paket kullanılmamıştır.
 
