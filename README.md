@@ -62,9 +62,9 @@ import ParallaxList from './src/views/ParallaxList';
 
 It can be used with any JSON file that meets the JSON requirements follows:
 
-| Prop        | Description                                       | Default     | Type     | Required   |
-| ----------- | ------------------------------------------------- | ----------- | -------- | ---------- |
-| **`data`**  | Data to will provide text and picture on cards    | _None_      | JSON     | YES        |
+| Prop        | Description                                           | Default     | Type     | Required   |
+| ----------- | ----------------------------------------------------- | ----------- | -------- | ---------- |
+| **`data`**  | Data to will provide ID, text and picture on cards    | _None_      | JSON     | YES        |
 
 #### JSON Requirements
 
