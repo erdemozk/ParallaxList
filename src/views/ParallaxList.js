@@ -29,14 +29,13 @@ const ParallaxList = (props) => {
 
     return (
         <Animated.ScrollView
-        onScroll={Animated.event(
-            [{nativeEvent: {contentOffset: {y: scrollY}}}],
-            {useNativeDriver: true}
-        )}
-        scrollEventThrottle={16}
-        >
-            {props.data.map((item) => (Item(item))
+            onScroll={Animated.event(
+                [{nativeEvent: {contentOffset: {y: scrollY}}}],
+                {useNativeDriver: true}
             )}
+            scrollEventThrottle={16}
+        >
+            {props.data.map((item) => (Item(item)))}
         </Animated.ScrollView>
     );
 };
